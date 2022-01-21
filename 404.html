@@ -5,7 +5,78 @@
       <meta charset="UTF-8">
       <meta http-equiv="X-UA-Compatible" content="IE=edge">
       <meta name="viewport" content="width=device-width,initial-scale=1,user-scalable=no">
+      <meta name="theme-color" content="#000000">
+      <meta name="mobile-web-app-capable" content="yes">
+      <meta name="apple-mobile-web-app-capable" content="yes">
+      <meta name="apple-mobile-web-app-status-bar-style" content="black">
+      <meta name="apple-mobile-web-app-title" content="SPI LAB">
+      <link rel="manifest" href="./manifest.json" />
+      <link rel="shortcut icon" href="./8d4f0318e94874289998f155077becd1.ico" type="image/x-icon">
+      <link rel="apple-touch-icon" sizes="192x192" href="./0e63182102377a5a18557c5a75b34c78.png">
+      <link rel="apple-touch-icon" sizes="384x384" href="./6b6635428c5331a0d063710897c4ca59.png">
+      <link rel="apple-touch-icon" sizes="512x512" href="./a81f46941ac7ce2c5f3b08866dd4c4a0.png">
+      <link rel="apple-touch-icon" sizes="1024x1024" href="./29bc7bd62ee7da60d437cca7fb9e61cb.png">
       <title>XEON JS - Documentation</title>
+      <meta name="description"
+            content="XEON JS, a web-framework & javascript library to create amazing User Interfaces.">
+      <style>
+            :root {
+                  --primary-text-color: #fff;
+                  --primary-link-color: #1696eb;
+                  --secondary-link-color: #0d86ff;
+                  --primary-background-color: #FFF9EB;
+                  --primary-select-background-color: #0197af66;
+                  --primary-font-family: system-ui
+            }
+
+            * {
+                  margin: 0;
+                  padding: 0;
+                  box-sizing: border-box
+            }
+
+            body,
+            html {
+                  height: 100%;
+                  width: 100%;
+                  overflow: hidden;
+                  font-family: system-ui;
+                  user-select: none
+            }
+
+            #root {
+                  height: 100%;
+                  width: 100%;
+                  overflow: hidden;
+                  background-color: #eee;
+                  color: #000
+            }
+
+            @media (prefers-color-scheme:dark) {
+                  :root {
+                        --primary-text-color: #fff;
+                        --primary-link-color: #3498db;
+                        --secondary-link-color: #3399FF;
+                        --primary-background-color: #000614;
+                        --primary-select-background-color: #0197af66;
+                        --primary-font-family: system-ui
+                  }
+
+                  #root {
+                        background-color: #21242a;
+                        color: #fff
+                  }
+            }
+
+            a {
+                  color: var(--primary-link-color);
+                  text-decoration: none
+            }
+
+            a:hover {
+                  text-decoration: underline
+            }
+      </style>
       <script defer="defer" src="./static/js/runtime.bundle.js"></script>
       <script defer="defer" src="./static/js/vendors.bundle.js"></script>
       <script defer="defer" src="./static/js/main.bundle.js"></script>

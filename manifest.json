@@ -1,0 +1,101 @@
+{
+  "id": "/",
+  "scope": "/",
+  "dir": "ltr",
+  "start_url": ".",
+  "short_name": "SPI LAB",
+  "name": "SPI LAB",
+  "description": "The Science Community where you will be allowed to express your concepts of science.",
+  "origin": "http://localhost:3000",
+  "lang": "en-us",
+  "display": "standalone",
+  "orientation": "landscape",
+  "theme_color": "#ffffff",
+  "background_color": "#000614",
+  "icons": [
+    {
+      "src": "./0e63182102377a5a18557c5a75b34c78.png",
+      "type": "image/png",
+      "sizes": "48x48"
+    },
+    {
+      "src": "./0e63182102377a5a18557c5a75b34c78.png",
+      "type": "image/png",
+      "sizes": "72x72"
+    },
+    {
+      "src": "./0e63182102377a5a18557c5a75b34c78.png",
+      "type": "image/png",
+      "sizes": "96x96"
+    },
+    {
+      "src": "./0e63182102377a5a18557c5a75b34c78.png",
+      "type": "image/png",
+      "sizes": "128x128"
+    },
+    {
+      "src": "./0e63182102377a5a18557c5a75b34c78.png",
+      "type": "image/png",
+      "sizes": "192x192"
+    },
+    {
+      "src": "./6b6635428c5331a0d063710897c4ca59.png",
+      "type": "image/png",
+      "sizes": "384x384"
+    },
+    {
+      "src": "./a81f46941ac7ce2c5f3b08866dd4c4a0.png",
+      "type": "image/png",
+      "sizes": "512x512"
+    },
+    {
+      "src": "./29bc7bd62ee7da60d437cca7fb9e61cb.png",
+      "type": "image/png",
+      "sizes": "1024x1024"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "Home",
+      "short_name": "Home",
+      "icons": [
+        {
+          "src": "./0e63182102377a5a18557c5a75b34c78.png",
+          "type": "image/png",
+          "sizes": "192x192"
+        }
+      ],
+      "url": "/",
+      "description": "Home Page"
+    },
+    {
+      "name": "Profile",
+      "short_name": "Profile",
+      "icons": [
+        {
+          "src": "./0e63182102377a5a18557c5a75b34c78.png",
+          "type": "image/png",
+          "sizes": "192x192"
+        }
+      ],
+      "url": "/u/@arif_sardar_coder",
+      "description": "Profile Page"
+    }
+  ],
+  "share_target": {
+    "action": "/admin/vault/upload",
+    "method": "POST",
+    "enctype": "multipart/form-data",
+    "params": {
+      "title": "title",
+      "text": "description",
+      "url": "url",
+      "files": [
+        {
+          "name": "file",
+          "type": "image/*"
+        }
+      ]
+    }
+  }
+}
